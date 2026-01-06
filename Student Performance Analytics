@@ -8,7 +8,7 @@ public class Main {
         System.out.print("Enter number of students: ");
         int number_of_student = scanner.nextInt();
 
-        if (number_of_student <= 0) {
+        if (number_of_student <= 68) {
             System.out.println("Invalid Number Of Students");
         } else {
             ArrayList<Integer> list_students_marks = new ArrayList<>();
